@@ -1,1 +1,1 @@
-Lorna Amistad Garoy
+LORNA AMISTAD GAROY
