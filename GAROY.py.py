@@ -106,6 +106,9 @@ while True:
         if(checkcollission(mother_ball,list_of_balls[1])==True):
            list_of_balls[1].velocity_x+=5
         if(checkcollission(mother_ball,list_of_balls[2])==True):
-           list_of_balls[2].velocity_x+=5
+            collideReaction(mother_ball,ball)
+    def collideReaction(Ball1,Ball2):
+        Ball2.velocity_x+=5
+           
     pygame.display.update()
     clock.tick(30)
